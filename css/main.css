@@ -486,8 +486,10 @@
   position: absolute;
   bottom: -30px;
   left: 0;
+  height: 45px;
+  overflow: hidden;
+  object-fit: cover;
   width: 50px; /* Оптимальний розмір для масштабу 440px */
-  height: auto;
   z-index: 4;
 
   /* Встановлюємо криву лінію як рельс для руху */
@@ -959,7 +961,8 @@ white-space: nowrap;
   bottom: 0;
   left: 0;
   width: 50px;
-  height: auto;
+  height: 45px;
+  object-fit: cover;
   z-index: 3;
   
   /* Підключаємо криву траєкторію з твого верхнього SVG */
